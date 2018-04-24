@@ -10,11 +10,26 @@ int main()
 {
     eSerie listaDeSeries[TAMSERIE];
     eUsuario listaDeUsuarios[TAMUSUARIO];
-    inicializarSeriesEstado(listaDeSeries, TAMSERIE);
 
+    inicializarSeriesEstado(listaDeSeries, TAMSERIE);
     inicializarSeriesHardCode(listaDeSeries);
+
     inicializarUsuariosEstado(listaDeUsuarios,TAMUSUARIO);
     inicializarUsuariosHardCode(listaDeUsuarios);
+
+
+    mostrarListaSeries(listaDeSeries,TAMSERIE);
+    mostrarUsuarioConSuSerie(listaDeUsuarios, TAMUSUARIO, listaDeSeries, TAMSERIE);
+
+
+  //  eSerie listaDeSeries[TAMSERIE];
+
+   // eUsuario listaDeUsuarios[TAMUSUARIO];
+   // inicializarSeriesEstado(listaDeSeries, TAMSERIE);
+
+   // inicializarSeriesHardCode(listaDeSeries);
+   // inicializarUsuariosEstado(listaDeUsuarios,TAMUSUARIO);
+   // inicializarUsuariosHardCode(listaDeUsuarios);
 
     /*
 
