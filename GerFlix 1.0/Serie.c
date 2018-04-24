@@ -1,7 +1,6 @@
-
-#include "Serie.h"
+#include <stdlib.h>
 #include <string.h>
-
+#include "Serie.h"
 /*
     int idSerie;
     char nombre[50];
@@ -42,8 +41,7 @@ void inicializarSeriesHardCode(eSerie series[])
 }
 
 
-void mostrarListaSeries(eSerie series[], int cant)
-{
+void mostrarListaSeries(eSerie series[], int cant){
     int i;
     for(i=0; i<cant; i++)
     {
@@ -55,3 +53,6 @@ void mostrarListaSeries(eSerie series[], int cant)
     }
 }
 
+void mostrarListaSeriesConUsuario(eSerie series[], int cant){
+
+}
