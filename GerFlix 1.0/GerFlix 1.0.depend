@@ -34,3 +34,27 @@
 	"Serie.h"
 	<string.h>
 
+1524690737 source:c:\users\rcard\git\estructurasenc\gerflix\gerflix 1.0\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Serie.h"
+	"Usuario.h"
+
+1524690810 c:\users\rcard\git\estructurasenc\gerflix\gerflix 1.0\serie.h
+
+1524690539 c:\users\rcard\git\estructurasenc\gerflix\gerflix 1.0\usuario.h
+
+1524674294 source:c:\users\rcard\git\estructurasenc\gerflix\gerflix 1.0\usuario.c
+	<stdio.h>
+	<string.h>
+	"Serie.h"
+	"Usuario.h"
+
+1524688454 source:c:\users\rcard\git\estructurasenc\gerflix\gerflix 1.0\serie.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Serie.h"
+	"Usuario.h"
+

@@ -1,7 +1,10 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <string.h>
+
 #include "Serie.h"
 #include "Usuario.h"
+
 #define TAMSERIE 20
 #define TAMUSUARIO 100
 
@@ -21,7 +24,7 @@ int main()
     mostrarListaSeries(listaDeSeries,TAMSERIE);
     mostrarUsuarioConSuSerie(listaDeUsuarios, TAMUSUARIO, listaDeSeries, TAMSERIE);
 
-
+    mostrarListaSeriesConUsuario(listaDeSeries, TAMSERIE, listaDeUsuarios, TAMUSUARIO);
 
     /*
 

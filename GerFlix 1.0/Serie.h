@@ -1,6 +1,5 @@
 
-typedef struct
-{
+typedef struct{
     int idSerie;
     char nombre[50];
     char genero[20];
@@ -11,5 +10,5 @@ typedef struct
 void inicializarSeriesEstado(eSerie[], int);
 void inicializarSeriesHardCode(eSerie[]);
 void mostrarListaSeries(eSerie[], int);
-void mostrarListaSeriesConUsuario(eSerie[], int);
+void mostrarListaSeriesConUsuario(eSerie[], int, eUsuario[], int);
 
